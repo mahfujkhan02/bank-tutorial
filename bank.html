@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Inside</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="text-5xl text-center mt-6">Let's Get Some
+            <span class="font-semibold  text-orange-700">Money</span>
+        </h1>
+    </header>
+
+    <main>
+        <section class="mt-12">
+            <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto">
+
+                <div class="bg-cyan-400  p-8 rounded-xl">
+                    <h4 class="font-semibold text-5xl  ">Deposit</h4>
+                    <h2 class="text-5xl font-semibold ">$00</h2>
+
+                </div>
+
+                <div class="bg-pink-400  p-8 rounded-xl">
+                    <h4 class="font-semibold text-5xl  ">Withdraw</h4>
+                    <h2 class="text-5xl font-semibold ">$00</h2>
+
+                </div>
+
+                <div class="bg-rose-400  p-8 rounded-xl">
+                    <h4 class="font-semibold text-5xl text-slate-900 ">Balance</h4>
+                    <h2 class="text-5xl font-semibold text-slate-900 ">$1240</h2>
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- deposit and Withdraw---->
+
+        <section class="mt-12">
+
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto">
+
+                <div class="bg-orange-200  p-8 rounded-xl">
+                    <h4 class="font-semibold text-5xl mb-4 ">Please Deposit</h4>
+
+                    <input class="w-9/12 block mb-2 px-3 mb-4"  placeholder="$ Ammount You Want To Deposit">
+                   
+                    <button id="btn-deposit"
+                        class="bg-orange-300 px-8 py-2 text-white font-medium rounded-lg hover:bg-sky-700">Deposit</button>
+
+
+                </div>
+
+                <div class="bg-emerald-300  p-8 rounded-xl">
+                    <h4 class="font-semibold text-5xl mb-4 ">Please Withdraw</h4>
+
+                    <input class="w-9/12 block mb-2 px-3 " placeholder="$ Ammount You Want To Withdraw">
+                    
+                    <button id="btn-withdraw"
+                        class="bg-orange-300 px-8 py-2 text-white font-medium rounded-lg hover:bg-sky-700 mb-4">Withdraw</button>
+
+
+                </div>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
