@@ -23,7 +23,7 @@
 
                 <div class="bg-cyan-400  p-8 rounded-xl">
                     <h4 class="font-semibold text-5xl  ">Deposit</h4>
-                    <h2 class="text-5xl font-semibold ">$00</h2>
+                    <h2 class="text-5xl font-semibold ">$<span id="deposit-total">00</span></h2>
 
                 </div>
 
@@ -35,7 +35,7 @@
 
                 <div class="bg-rose-400  p-8 rounded-xl">
                     <h4 class="font-semibold text-5xl text-slate-900 ">Balance</h4>
-                    <h2 class="text-5xl font-semibold text-slate-900 ">$1240</h2>
+                    <h2 class="text-5xl font-semibold text-slate-900 ">$<span id="balance-total">1240</span></h2>
 
                 </div>
 
@@ -52,10 +52,10 @@
                 <div class="bg-orange-200  p-8 rounded-xl">
                     <h4 class="font-semibold text-5xl mb-4 ">Please Deposit</h4>
 
-                    <input class="w-9/12 block mb-2 px-3 mb-4"  placeholder="$ Ammount You Want To Deposit">
+                    <input class="w-9/12 block mb-2 px-3 mb-4" type="text" id="deposit-field" placeholder="$ Ammount You Want To Deposit">
                    
                     <button id="btn-deposit"
-                        class="bg-orange-300 px-8 py-2 text-white font-medium rounded-lg hover:bg-sky-700">Deposit</button>
+                        class="bg-purple-600 px-8 py-2 text-white font-medium rounded-lg hover:bg-sky-700">Deposit</button>
 
 
                 </div>
@@ -66,13 +66,15 @@
                     <input class="w-9/12 block mb-2 px-3 " placeholder="$ Ammount You Want To Withdraw">
                     
                     <button id="btn-withdraw"
-                        class="bg-orange-300 px-8 py-2 text-white font-medium rounded-lg hover:bg-sky-700 mb-4">Withdraw</button>
+                        class="bg-orange-600 px-8 py-2 text-white font-medium rounded-lg hover:bg-sky-700 mb-4">Withdraw</button>
 
 
                 </div>
 
         </section>
     </main>
+
+    <script src="js/deposit.js"></script>
 
 </body>
 
